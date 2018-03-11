@@ -1,0 +1,32 @@
+#include <iostream>
+#include<cstring>
+using namespace std;
+
+int main()
+{
+    char word[30],drow[30];
+    int w_length,i;
+    for(;;)
+    {
+      cout<<"Enter a word:(Enter symbol for end)";
+      cin>>word;
+      w_length=strlen(word);
+      if(w_length!=1)
+      {
+        for(i=0;i<w_length;i++)
+        {
+         drow[i]=word[w_length-i-1];
+        }
+        for(i=0;i<w_length;i++)
+        {
+            cout<<drow[i];
+        }
+      }
+      else
+      {
+       cout<<endl;
+       break;
+      }
+    }
+    return 0;
+}
