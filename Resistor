@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  float R1,R2,RS;
+  cout<<"Please Enter R1:";
+  cin>>R1;
+  cout<<"Plase Enter R2:";
+  cin>>R2;
+  RS=R1+R2;
+  cout<<"The value is:";
+  cout<<RS;
+  return 0;
+}
