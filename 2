@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int aklas1,bklas1,cklas1,aklas2,bklas2,cklas2,aklas3,bklas3,cklas3,Sum;
+    int purvanagrada,vtoranagrada,tretanagrada;
+    double P,E;
+    P=25.60 ;
+    cout<<"aklas1,bklas1,cklas1=";
+    cin>>aklas1>>bklas1>>cklas1;
+    cout<<"aklas2,bklas2,cklas2=";
+    cin>>aklas2>>bklas2>>cklas2;
+    cout<<"aklas3,bklas3,cklas3=";
+    cin>>aklas3>>bklas3>>cklas3;
+    purvanagrada=aklas1 +bklas1  +cklas1 ;
+    cout<<"Obshto deca purvavnagrada"<<purvanagrada<<endl;
+    vtoranagrada= aklas2+bklas2+cklas2;
+    cout<<"Obshto deca vtora nagrada"<<vtoranagrada<<endl;
+    tretanagrada= aklas3+ bklas3+cklas3;
+    cout<<"Obshto deca treta nagrada"<<tretanagrada<<endl;
+    Sum=purvanagrada+vtoranagrada+tretanagrada;
+    cout<<"Vsichki deca:"<<Sum<<endl;
+    cout<<"Pari za edin uchenik:"<<P<<endl;
+    E=P*Sum;
+    cout<<"Cenata na ekskurziqta:"<<E;
+    return 0;
+}
